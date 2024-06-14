@@ -59,3 +59,8 @@ button:hover {
 .hidden {
     display: none;
 }
+
+/* Additional styling for the PDF */
+.pdf-content {
+    padding: 20px;
+}
