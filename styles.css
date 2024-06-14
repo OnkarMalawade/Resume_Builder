@@ -54,6 +54,7 @@ button:hover {
     border-top: 1px solid #ddd;
     padding-top: 20px;
     margin-top: 20px;
+     padding: 20px;
 }
 
 .hidden {
