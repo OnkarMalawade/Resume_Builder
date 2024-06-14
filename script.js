@@ -35,11 +35,12 @@ function downloadPDF() {
     const element = document.getElementById('resume');
 
     const opt = {
-        margin: 10,
+        margin: [20, 20, 20, 20], // Top, Right, Bottom, Left margins
         filename: 'resume.pdf',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2 },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+
     };
 
     html2pdf()
