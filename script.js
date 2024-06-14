@@ -11,7 +11,7 @@ function generateResume() {
     const skills = document.getElementById('skills').value;
 
     const resumeContent = `
-        <div class="pdf-content">
+        <div class="pdf-content" style="padding: 20px;">
             <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${name}</h2>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: ${email}</p>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: ${phone}</p>
