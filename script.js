@@ -12,16 +12,16 @@ function generateResume() {
 
     const resumeContent = `
         <div class="pdf-content">
-            <h2>${name}</h2>
-            <p>Email: ${email}</p>
-            <p>Phone: ${phone}</p>
-            <p>Address: ${address}</p>
-            <h3>Education</h3>
-            <p>${education}</p>
-            <h3>Experience</h3>
-            <p>${experience}</p>
-            <h3>Skills</h3>
-            <p>${skills}</p>
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${name}</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: ${email}</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: ${phone}</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address: ${address}</p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Education</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${education}</p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${experience}</p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skills</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${skills}</p>
         </div>
     `;
 
