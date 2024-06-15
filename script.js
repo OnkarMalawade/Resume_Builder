@@ -1,6 +1,13 @@
 document.getElementById('generateResumeButton').addEventListener('click', generateResume);
 document.getElementById('downloadPdfButton').addEventListener('click', downloadPDF);
-
+  // Get the button element
+  const redirectButton = document.getElementById('back');
+  
+  // Add click event listener
+  redirectButton.addEventListener('click', function() {
+    // Redirect to another page
+    window.location.href = 'https://onkarmalawade.github.io/Resume-Onkar-Malawade/';
+  });
 function generateResume() {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
